@@ -600,6 +600,9 @@ button {
 .modal-field {
   margin-bottom: 8px;
 }
+.modal-field-last {
+  margin-bottom: 16px;
+}
 .modal-label {
   font-size: 12px;
   line-height: 1.17;
@@ -660,7 +663,6 @@ button {
   outline: transparent;
 }
 .modal-check-tex {
-  margin-top: 16px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
