@@ -700,7 +700,6 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
 }
 .part-modal-user-privacy {
   color: #4d5ae5;
