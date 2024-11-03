@@ -289,6 +289,7 @@
                             <p class="portfolio-tex">App</p>
                         </div>
                     </li>
+
                     <li class="portfolio-item">
                         <div class="taste-cover-wrapper">
                             <img class="portfolio-img" src="./images/cashless-payment.jpg" alt="cashless-payment"
@@ -303,6 +304,7 @@
                             <p class="portfolio-tex">Marketing</p>
                         </div>
                     </li>
+
                     <li class="portfolio-item">
                         <div class="taste-cover-wrapper">
                             <img class="portfolio-img" src="./images/meditation-app.jpg" alt="meditation-app"
@@ -317,6 +319,7 @@
                             <p class="portfolio-tex">App</p>
                         </div>
                     </li>
+
                     <li class="portfolio-item">
                         <div class="taste-cover-wrapper">
                             <img class="portfolio-img" src="./images/taxi-service.jpg" alt="taxi-service" width="360"
@@ -331,6 +334,7 @@
                             <p class="portfolio-tex">Marketing</p>
                         </div>
                     </li>
+
                     <li class="portfolio-item">
                         <div class="taste-cover-wrapper">
                             <img class="portfolio-img" src="./images/screen-illustrations.jpg"
@@ -345,6 +349,7 @@
                             <p class="portfolio-tex">Design</p>
                         </div>
                     </li>
+
                     <li class="portfolio-item">
                         <div class="taste-cover-wrapper">
                             <img class="portfolio-img" src="./images/online-courses.jpg" alt="online-courses"
@@ -373,10 +378,11 @@
                     growth
                     solutions.</p>
             </div>
+
             <div class="footer-soc-container">
                 <p class="footer-soc-tex">Social media</p>
-                <ul class="fotter-soc-list">
-                    <li class="fotter-soc-item">
+                <ul class="footer-soc-list">
+                    <li class="footer-soc-item">
                         <a class="footer-soc-link" href="">
                             <svg class="footer-icon" width="24" height="24">
                                 <use href="./images/icons.svg#icon-instagram"></use>
@@ -406,24 +412,30 @@
                     </li>
                 </ul>
             </div>
+
             <div class="subscribe">
                 <p class="subscribe-tex">Subscribe</p>
                 <form class="footer-modal-form">
-                    <div class="footer-modal-field">
-                        <input type="text" name="user-name" id="user-name" class="footer-modal-input">
-                    </div>
+                    <label for="e-mail" class="footer-modal-label"></label>
+                    <input type="email" name="e-mail" id="e-mail" placeholder="E-mail" class="footer-modal-input">
+                    <button type="submit" class="footer-modal-button">Subscribe
+                        <svg class="footer-modal-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-subscribe"></use>
+                        </svg>
+                    </button>
+                </form>
             </div>
-
         </div>
     </footer>
 
     <div class="backdrop">
         <div class="modal">
             <button class="modal-open" type="button">
-                <svg class="modal-open-button-icon" width="24px" height="24px">
+                <svg class="modal-open-button-icon" width="8px" height="8px">
                     <use href="./images/icons.svg#icon-close-button"></use>
                 </svg>
             </button>
+
             <p class="modal-title">Leave your contacts and we will call you back</p>
             <form class="modal-form">
                 <div class="modal-field">
@@ -435,6 +447,7 @@
                         </svg>
                     </div>
                 </div>
+
                 <div class="modal-field">
                     <label for="user-tel" class="modal-label">Phone</label>
                     <div class="input-wrapper">
@@ -444,6 +457,7 @@
                         </svg>
                     </div>
                 </div>
+
                 <div class="modal-field">
                     <label for="user-email" class="modal-label">Email</label>
                     <div class="input-wrapper">
@@ -459,21 +473,21 @@
                         class="modal-textarea"></textarea>
 
                     <div class="modal-field">
-                        <input type="checkbox" name="policy" id="policy" class="modal-check visually-hidden"
+                        <input type="checkbox" name="user-privacy" id="user-privacy" class="modal-check visually-hidden"
                             value="true">
-                        <label for="policy" class="modal-check-tex">
-                            <span>
+                        <label for="user-privacy" class="modal-check-tex">
+                            <span class="user-privacy-span">
                                 <svg class="modal-check-icon" width="10" height="8">
                                     <use href="./images/icons.svg#icon-check"></use>
                                 </svg>
                             </span>
                             I accept the terms and conditions of
-                            the Privacy
-                            Policy</label>
+                            the<a class="part-modal-user-privacy">Privacy Policy</a></label>
                     </div>
-
                 </div>
+
                 <button class="modal-button" type="submit">Send</button>
+
             </form>
         </div>
     </div>
